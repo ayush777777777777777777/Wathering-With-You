@@ -2,11 +2,9 @@
 
 
 // Define the values for firstPerson, firstLocation, secondPerson, and secondLocation
-var firstPerson = 'Rahul'; // Replace with the actual name
-var firstLocation = 'Delhi, India'; // Replace with the actual location
+var firstPerson = 'Pradyumn'; // Replace with the actual name
 
-var secondPerson = 'Vanshika'; // Replace with the actual name
-var secondLocation = 'Chandigarh, India';
+var secondPerson = 'S__i__ha'; // Replace with the actual name
 
 //name, location, number
 var oneLoc = new Location(firstPerson, firstLocation, 'one'); //first person's name as string, location (City, Country) as string
@@ -15,10 +13,11 @@ var oneLoc = new Location(firstPerson, firstLocation, 'one'); //first person's n
 var twoLoc = new Location(secondPerson, secondLocation, 'two'); //first person's name as string, location (City, Country) as string
 
 //last day of contact (year, month, day)
-var timeLeaveStamp = new Date(2020, 01, 01);
+var currentdate = new Date;
+var timeLeaveStamp = currentDate.getDate()
 
 //first day of renewed contact (year, month, day)
-var timeMeetStamp = new Date(2024, 11, 25);
+var timeLeaveStamp = currentDate.getDate()
 
 //earliest and latest time appropirate for call
 var earliestCall = 8;
